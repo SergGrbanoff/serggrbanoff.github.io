@@ -1,0 +1,80 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+header { 
+	background-image: url(../img/github-bg.jpg); 
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+} 
+
+.top-line {
+	background-color: rgba(0,0,0,0.5);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 50px 0 0;
+}
+
+.contact-unit {
+	display: inline-block;
+	color: #fff;
+	font-size: 18px;
+	margin-right: 20px;
+}
+
+.contact-unit a {
+	color: #8dbf41;
+	text-decoration: none;
+}
+
+.logo {
+	height: 100px;
+}
+
+.wrap {
+	color: #fff;
+	text-align: center;
+}
+
+.wrap h3 {
+	font-weight: 300;
+	font-size: 28px;
+	color: #eee;
+}
+
+.wrap h1 {
+	font-weight: 300;
+	font-size: 36px;
+	color: #fff;
+}
+
+.wrap h2 {
+	font-weight: 300;
+	font-size: 28px;
+	color: #9a9a9a;
+}
+
+.wrap p {
+	font-weight: 300;
+	font-size: 42px;
+	color: #eee;
+}
+
+.porfolio {
+	background-color: rgba(255,255,255,0.4);
+	margin: 0 50px;
+	padding: 15px;
+}
+
+.porfolio p {
+	font-size: 32px;
+	font-weight: 700;
+}
+
+/*	    */
