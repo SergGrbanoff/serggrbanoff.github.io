@@ -67,14 +67,42 @@ header {
 }
 
 .porfolio {
-	background-color: rgba(255,255,255,0.4);
-	margin: 0 50px;
-	padding: 15px;
+	text-align: center;
 }
 
 .porfolio p {
 	font-size: 32px;
 	font-weight: 700;
+	color: #8dbf41;
 }
 
-/*	    */
+.porfolio ul {
+	list-style: none;
+}
+
+.porfolio ul li {
+	display: inline-block;
+	text-decoration: none;
+	margin-right: 70px;
+}
+
+.porfolio ul li a {
+	/*opacity: .9;*/
+	transition: all 0.5s ease;
+}
+
+.porfolio ul li a:hover {
+	opacity: 1;
+}
+
+.porfolio ul li a:hover img {
+	border: 5px solid #e3223e;
+}
+
+.porfolio ul li a img {
+	height: 300px;
+	width: 450px;
+	border: 5px solid #8dbf41;
+	opacity: .85;
+	transition: all 0.5s ease;
+}
