@@ -1,0 +1,169 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Контакты</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Quality Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<!--webfont-->
+<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+<!----font-Awesome----->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!----font-Awesome----->
+</head>
+<body>
+<div class="header_about"> </div>
+   <div class="header-home">
+	<div class="fixed-header">
+		<div class="logo">
+			<a href="index.html">
+	          <span class="secondary">строй</span>
+	          <span class="main">сервис</span>
+	        </a>
+		</div>
+				<div class="top-nav">
+				    <span class="menu"> </span>
+					<ul>
+						<li><a href="index.html">главная</a></li>
+					  	<li><a href="about.html">о компании</a></li>
+					  	<li><a href="services.html">услуги</a></li>
+					  	<li class="active"><a href="contact.html">контакты</a></li>		
+					</ul>
+				<!-- script-nav -->
+			<script>
+			$("span.menu").click(function(){
+				$(".top-nav ul").slideToggle(500, function(){
+				});
+			});
+			</script>
+			<!-- //script-nav -->
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+        <!--script-->
+		<script>
+			$(document).ready(function(){
+				$(".top-nav li a").click(function(){
+					$(this).parent().addClass("active");
+					$(this).parent().siblings().removeClass("active");
+				});
+			});
+		</script>
+			<!-- script-for sticky-nav -->
+		<script>
+		$(document).ready(function() {
+			 var navoffeset=$(".header-home").offset().top;
+			 $(window).scroll(function(){
+				var scrollpos=$(window).scrollTop(); 
+				if(scrollpos >=navoffeset){
+					$(".header-home").addClass("fixed");
+				}else{
+					$(".header-home").removeClass("fixed");
+				}
+			 });
+			 
+		});
+		</script>
+		<!-- /script-for sticky-nav -->
+	<!--//header-->
+   <div class="grid_4">
+		<div class="container"> 
+			<h1 class="blog_head">контакты</h1>
+			<div class="contact">
+				<div class="col-md-4 contact_left">
+					<h3>Мы рады сотрудничеству</h3>
+					<p>Компания «Строй Сервис» - производство сэндвич-панелей, генеральный подряд, строительство зданий и сооружений</p>
+				</div>
+				<div class="col-md-8 contact_right">
+					<h3>написать нам</h3>
+					<form>
+						<div class="text">
+							<div class="text-fild">
+								<span>Имя:</span>
+								<input type="text" class="text" value="Ваше имя" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Ваше имя';}">
+							</div>
+							<div class="text-fild">
+								<span>Email:</span>
+								<input type="text" class="text" value="Ваш Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Ваш Email';}">
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="msg-fild">
+								<span>Заголовок:</span>
+								<input type="text" class="text" value="Заголовок" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Заголовок';}">
+						</div>
+						<div class="message-fild">
+								<span>Сообщение:</span>
+								<textarea> </textarea>
+						</div>
+						<label class="btn1 btn2 btn-8 btn-8c"><input type="submit" value="Отправить"></label>
+					</form>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		 </div>
+	</div>
+	<div class="footer">
+		<div class="container">
+		  <div class="footer_top">
+			<div class="col-sm-3">
+			   <ul class="list1">
+			   	<h3>Ссылки</h3>
+			   	 <li><a href="#">партнеры</a></li>
+			   	 <li><a href="#">работа</a></li>
+			   	 <li><a href="#">производство</a></li>
+			     <li><a href="#">контакты</a></li>
+			   </ul>
+			</div>
+			<div class="col-sm-3">
+			  <ul class="list1">
+			    <h3>услуги</h3>
+			   	 <li><a href="#">типовые каркасы</a></li>
+			   	 <li><a href="#">индивидуальные здания</a></li>
+			   	 <li><a href="#">холодильные склады</a></li>
+			   	 <li><a href="#">производственные здания</a></li>
+			  </ul>
+			</div>
+			<div class="col-sm-3">
+			  <ul class="list1">
+			  	<h3>меню</h3>
+			   	 <li><a href="#">главная</a></li>
+			   	 <li><a href="#">о компании</a></li>
+			   	 <li><a href="#">услуги</a></li>
+			   	 <li><a href="#">контакты</a></li>
+			  </ul>
+			</div>
+			<div class="col-sm-3">
+			  <ul class="socials">
+                 <li><a href="#"><i class="fa fb fa-facebook"></i></a></li>
+                 <li><a href="#"><i class="fa tw fa-twitter"></i></a></li>
+              </ul>
+              <ul class="list2">
+				<li><strong class="phone">+7 485 115 46 89</strong><br><small>пон - пят / 9.00 - 18.00</small></li>
+				<li>Вопросы? <a href="№">stroyservice@yandex.ru</a></li>
+			  </ul>
+			</div>
+			<div class="clearfix"> </div>
+		   </div>
+		 </div>
+	</div>
+	<div class="copy">
+	  <p>Copyright &copy; 2017 .  Все права защишены .</p>
+    </div>
+</body>
+</html>		
